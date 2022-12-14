@@ -1,0 +1,49 @@
+.grid__item{
+  display: flex;
+  background-color: #7CB92D;
+  border-radius: 10px;
+  height: 171px;
+  color: white;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.grid__item:nth-child(5){
+  background-color: #367BF5;
+
+}
+
+.grid__item:nth-child(6){
+  background-color: #367BF5;
+
+}
+
+.grid__item:nth-child(7){
+  background-color: #367BF5;
+
+}
+
+.grid__item:nth-child(8){
+  background-color: #E8AC37;
+  grid-area: 'einkauf';
+
+}
+
+.grid__item:nth-child(9){
+  background-color: #367BF5;
+
+}
+
+.grid__item:nth-child(10){
+  background-color: #367BF5;
+
+}
+
+.grid__item:nth-child(11){
+  background-color:  #313537;
+  grid-area: field;
+  width: 100%;
+  color: #6F6F6F;
+  font-size: 14px;
+
+}

@@ -1,0 +1,13 @@
+.grid{
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  height: 70%;
+  list-style-type: none;
+  gap: 16px;
+  grid-template-areas:
+  "beleihung verlangerung auslosung verkauf"
+  "kunden lager transaktionen einkauf"
+  "rechnungen darlehen field field";
+}

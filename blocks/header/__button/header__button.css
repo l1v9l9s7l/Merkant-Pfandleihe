@@ -1,0 +1,14 @@
+.header__button{
+  background-color: #00000000;
+  border: none;
+  background-image: url(../../../images/button.svg);
+  width: 34px;
+  height: 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.header__button:hover{
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+  cursor: pointer;
+}
