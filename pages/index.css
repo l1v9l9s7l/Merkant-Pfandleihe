@@ -1,9 +1,16 @@
+/*fonts*/
+@import url(../vendors/fonts/fonts.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__menu/header__menu.css);
+@import url(../blocks/header/__route/header__route.css);
 @import url(../blocks/header/__button/header__button.css);
+@import url(../blocks/header/__button/_type/header__button_type_book.css);
+@import url(../blocks/header/__button/_type/header__button_type_box.css);
+@import url(../blocks/header/__button/_type/header__button_type_exit.css);
 /* main */
 @import url(../blocks/main/main.css);
 /* grid */
@@ -11,3 +18,37 @@
 @import url(../blocks/grid/__item/grid__item.css);
 @import url(../blocks/grid/__item-image/grid__item-image.css);
 @import url(../blocks/grid/__item-text/grid__item-text.css);
+@import url(../blocks/grid/__information/grid__informatiom.css);
+/* table */
+@import url(../blocks/table/table.css);
+@import url(../blocks/table/__button/table__button.css);
+@import url(../blocks/table/__header/_type/table__header_type_lager.css);
+@import url(../blocks/table/__price-text/table__price-text.css);
+@import url(../blocks/table/__price-wrapper/table__price-wrapper.css);
+@import url(../blocks/table/__price/table__price.css);
+/* search */
+@import url(../blocks/search/search.css);
+@import url(../blocks/search/__textarea/search__textarea.css);
+@import url(../blocks/search/__button/search__button.css);
+/* lager-objecets-list */
+@import url(../blocks/lager-objects-list/lager-objects-list.css);
+@import url(../blocks/lager-objects-list/__header/lager-objects-list__header.css);
+@import url(../blocks/lager-objects-list/__header-text/lager-objects-list__header-text.css);
+@import url(../blocks/lager-objects-list/__item/lager-objects-list__item.css);
+@import url(../blocks/lager-objects-list/__text/lager-objects-list__text.css);
+/* transaktion-list */
+@import url(../blocks/transaktion-list/transaktion-list.css);
+@import url(../blocks/transaktion-list/__header-text/transaktion-list__header-text.css);
+@import url(../blocks/transaktion-list/__header/transaktion-list__header.css);
+@import url(../blocks/transaktion-list/__item/transaktion-list__item.css);
+@import url(../blocks/transaktion-list/__item-text/transaktion-list__item-text.css);
+/* transaktion-tables-wrapper */
+@import url(../blocks/transaktion-tables-wrapper/transaktion-tables-wrapper.css);
+/* transaktion*/
+@import url(../blocks/transaktion/transaktion.css);
+@import url(../blocks/transaktion/__add-menu-input/transaktion__add-menu-input.css);
+@import url(../blocks/table/_type/table_type_transaktion.css);
+@import url(../blocks/transaktion/__add-menu/transaktion__add-menu.css);
+@import url(../blocks/transaktion/__option-name/transaktion__option-name.css);
+@import url(../blocks/transaktion/__add-menu-button/transaktion__add-menu-button.css);
+

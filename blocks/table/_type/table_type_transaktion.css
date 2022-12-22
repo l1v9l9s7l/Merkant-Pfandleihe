@@ -1,0 +1,7 @@
+.table_type_transaktion{
+  margin-left: 16px;
+}
+
+.table_type_transaktion:nth-child(1){
+  margin-bottom: 16px;
+}

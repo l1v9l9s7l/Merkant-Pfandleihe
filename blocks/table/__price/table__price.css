@@ -1,0 +1,10 @@
+.table__price{
+  color: white;
+  margin: 0;
+  font-family: Inter;
+  font-size: 16px;
+    font-weight: 600;
+  line-height: 19px;
+  letter-spacing: -0.02em;
+  text-align: center;
+}

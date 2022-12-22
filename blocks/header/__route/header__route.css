@@ -1,0 +1,9 @@
+.header__route{
+  color: rgba(124, 185, 45, 1);
+  margin: 0 53px 0 0;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: 700;
+  text-transform: uppercase;
+}

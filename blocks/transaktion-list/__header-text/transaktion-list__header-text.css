@@ -1,0 +1,31 @@
+.transaktion-list__header-text{
+  color: rgba(111, 111, 111, 1);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-align: left;
+
+}
+
+.transaktion-list__header-text:nth-child(1){
+  margin-left: 24px;
+  margin-right: 46px;
+}
+
+.transaktion-list__header-text:nth-child(2){
+  margin-right: 82px;
+}
+
+.transaktion-list__header-text:nth-child(3){
+  margin-right: 82px;
+}
+
+.transaktion-list__header-text:nth-child(4){
+  margin-right: 102px;
+}
+
+/* .transaktion-list__header-text:nth-child(5){
+  margin-right: 32px;
+} */

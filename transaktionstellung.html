@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MERKANT PFANDLEIHE</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="./index.html">
+        <img class="header__logo" src="./images/logo.svg" alt="" />
+      </a>
+      <nav class="header__menu">
+        <h2 class="header__route">Transaktionstellung</h2>
+        <button class="header__button header__button_type_box"></button>
+        <button class="header__button header__button_type_book"></button>
+        <button class="header__button header__button_type_exit"></button>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="transaktion-tables-wrapper">
+        <div class="table">
+          <div class="transaktion-list">
+            <div class="transaktion-list__header">
+              <p class="transaktion-list__header-text">ID</p>
+              <p class="transaktion-list__header-text">DATUM</p>
+              <p class="transaktion-list__header-text">RECHNUNG</p>
+              <p class="transaktion-list__header-text">BETRAG</p>
+              <p class="transaktion-list__header-text">STAND</p>
+            </div>
+            <div class="transaktion-list__item">
+              <p class="transaktion-list__item-text">2018</p>
+              <p class="transaktion-list__item-text">01-10-2022</p>
+              <p class="transaktion-list__item-text">BA 761</p>
+              <p class="transaktion-list__item-text">500,00 €</p>
+              <p class="transaktion-list__item-text">700,00 €</p>
+            </div>
+            <div class="transaktion-list__item">
+              <p class="transaktion-list__item-text">2018</p>
+              <p class="transaktion-list__item-text">01-10-2022</p>
+              <p class="transaktion-list__item-text">BA 761</p>
+              <p class="transaktion-list__item-text">500,00 €</p>
+              <p class="transaktion-list__item-text">700,00 €</p>
+            </div>
+            <div class="transaktion-list__item">
+              <p class="transaktion-list__item-text">2018</p>
+              <p class="transaktion-list__item-text">01-10-2022</p>
+              <p class="transaktion-list__item-text">BA 761</p>
+              <p class="transaktion-list__item-text">500,00 €</p>
+              <p class="transaktion-list__item-text">700,00 €</p>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="table table_type_transaktion">
+            <div class="transaktion">
+              <p class="transaktion__option-name">Bareinlage (Bank an Kassa)</p>
+              <div class="transaktion__add-menu">
+                <input type="text" class="transaktion__add-menu-input" placeholder="0.00" />
+                <button class="transaktion__add-menu-button">Senden</button>
+              </div>
+            </div>
+          </div>
+          <div class="table table_type_transaktion">
+            <div class="transaktion">
+              <p class="transaktion__option-name">Barentnahme (Kassa an Bank)</p>
+              <div class="transaktion__add-menu">
+                <input type="text" class="transaktion__add-menu-input" placeholder="0.00" />
+                <button class="transaktion__add-menu-button">Senden</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>

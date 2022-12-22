@@ -1,0 +1,45 @@
+.lager-objects-list__header-text{
+  color: rgba(111, 111, 111, 1);
+  font-family: Inter;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 15px;
+  letter-spacing: -0.02em;
+  text-align: left;
+}
+
+.lager-objects-list__header-text:nth-child(1){
+  margin-right: 27px;
+}
+
+.lager-objects-list__header-text:nth-child(2){
+  margin-right: 64px;
+}
+
+.lager-objects-list__header-text:nth-child(3){
+  margin-right: 75px;
+}
+
+.lager-objects-list__header-text:nth-child(4){
+  margin-right: 69px;
+}
+
+.lager-objects-list__header-text:nth-child(5){
+  margin-right: 35px;
+}
+
+.lager-objects-list__header-text:nth-child(6){
+  margin-right: 34px;
+}
+
+.lager-objects-list__header-text:nth-child(7){
+  margin-right: 30px;
+}
+
+.lager-objects-list__header-text:nth-child(8){
+  margin-right: 20px;
+}
+
+.lager-objects-list__header-text:nth-child(9){
+  margin-right: 41px;
+}

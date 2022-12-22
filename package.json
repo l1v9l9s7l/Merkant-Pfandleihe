@@ -1,0 +1,19 @@
+{
+  "name": "merkant-pfandleihe",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l1v9l9s7l/Merkant-Pfandleihe.git"
+  },
+  "author": "l1v9l9s7l",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l1v9l9s7l/Merkant-Pfandleihe/issues"
+  },
+  "homepage": "https://github.com/l1v9l9s7l/Merkant-Pfandleihe#readme"
+}

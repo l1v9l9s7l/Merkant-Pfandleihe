@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lager / Artikelaufstellungv</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="./index.html">
+        <img class="header__logo" src="./images/logo.svg" alt="" />
+      </a>
+      <nav class="header__menu">
+        <h2 class="header__route">Lager / Artikelaufstellungv</h2>
+        <button class="header__button header__button_type_box"></button>
+        <button class="header__button header__button_type_book"></button>
+        <button class="header__button header__button_type_exit"></button>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="table">
+        <div class="table__header_type_lager">
+          <button class="table__button">Lagernde Artikel</button>
+          <button class="table__button">Beliehene Artikel</button>
+          <button class="table__button">Verkaufte Artikel</button>
+          <button class="table__button">Ausgeloeste Artikel</button>
+          <button class="table__button">Schwund</button>
+          <div class="search">
+            <textarea
+              class="search__textarea"
+              placeholder="Artikel suchen"
+              name="search-lager-text"
+              id="search-lager"
+              cols="30"
+              rows="10"
+            ></textarea>
+            <button class="search__button">Suchen</button>
+          </div>
+          <div class="table__price-wrapper">
+            <p class="table__price-text">EK-preis total:</p>
+            <p class="table__price">1.466.318,35 €</p>
+          </div>
+        </div>
+        <div class="lager-objects-list">
+          <div class="lager-objects-list__header">
+            <p class="lager-objects-list__header-text">NR</p>
+            <p class="lager-objects-list__header-text">KAT</p>
+            <p class="lager-objects-list__header-text">BEZEICHNUNG</p>
+            <p class="lager-objects-list__header-text">BESCHREIBUNG</p>
+            <p class="lager-objects-list__header-text">EK-PREIS</p>
+            <p class="lager-objects-list__header-text">VK-PREIS</p>
+            <p class="lager-objects-list__header-text">MENGE</p>
+            <p class="lager-objects-list__header-text">RECHNUNG</p>
+            <p class="lager-objects-list__header-text">STATUS</p>
+            <p class="lager-objects-list__header-text">AKTION</p>
+          </div>
+          <div class="lager-objects-list__item">
+            <input class="lager-objects-list__text" type="checkbox" />
+            <p class="lager-objects-list__text">2018</p>
+            <p class="lager-objects-list__text">TV</p>
+            <p class="lager-objects-list__text">TestArtikel</p>
+            <p class="lager-objects-list__text">BESCHREIBUNG</p>
+            <p class="lager-objects-list__text">500,00 €</p>
+            <p class="lager-objects-list__text">700,00 €</p>
+            <p class="lager-objects-list__text">1</p>
+            <p class="lager-objects-list__text">ER 759</p>
+            <p class="lager-objects-list__text">lagernd</p>
+            <p class="lager-objects-list__text">Verkaufen</p>
+          </div>
+          <div class="lager-objects-list__item">
+            <input class="lager-objects-list__text" type="checkbox" />
+            <p class="lager-objects-list__text">2018</p>
+            <p class="lager-objects-list__text">TV</p>
+            <p class="lager-objects-list__text">TestArtikel</p>
+            <p class="lager-objects-list__text">BESCHREIBUNG</p>
+            <p class="lager-objects-list__text">500,00 €</p>
+            <p class="lager-objects-list__text">700,00 €</p>
+            <p class="lager-objects-list__text">1</p>
+            <p class="lager-objects-list__text">ER 759</p>
+            <p class="lager-objects-list__text">lagernd</p>
+            <p class="lager-objects-list__text">Verkaufen</p>
+          </div>
+          <div class="lager-objects-list__item">
+            <input class="lager-objects-list__text" type="checkbox" />
+            <p class="lager-objects-list__text">2018</p>
+            <p class="lager-objects-list__text">TV</p>
+            <p class="lager-objects-list__text">TestArtikel</p>
+            <p class="lager-objects-list__text">BESCHREIBUNG</p>
+            <p class="lager-objects-list__text">500,00 €</p>
+            <p class="lager-objects-list__text">700,00 €</p>
+            <p class="lager-objects-list__text">1</p>
+            <p class="lager-objects-list__text">ER 759</p>
+            <p class="lager-objects-list__text">lagernd</p>
+            <p class="lager-objects-list__text">Verkaufen</p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>

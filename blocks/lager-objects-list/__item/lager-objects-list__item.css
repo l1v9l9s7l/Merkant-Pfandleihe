@@ -1,0 +1,5 @@
+.lager-objects-list__item{
+  display: flex;
+  padding: 0px 38px 0 24px;
+  border-top: 1px solid rgba(62, 67, 69, 1);
+}

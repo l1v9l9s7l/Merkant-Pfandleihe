@@ -1,3 +1,10 @@
 .grid__item-image{
-  
+  max-width: 95px;
+  max-height: 100px;
+  margin-top: 21px;
+}
+
+.grid__item-image:nth-child(2){
+  max-width: 106px;
+  max-height: 106px;
 }
