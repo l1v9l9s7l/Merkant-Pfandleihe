@@ -1,0 +1,16 @@
+button {
+  height: 30px;
+  padding: 8px;
+  margin-top: 8px;
+  color: #E8E8E8;
+  background: inherit;
+  border: 1px solid #E8E8E8;
+  border-radius: 4px;
+  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+}
+
+button:hover {
+  opacity: .7;
+}
