@@ -1,5 +1,7 @@
 /*fonts*/
 @import url(../vendors/fonts/fonts.css);
+/* margin */
+@import url(../blocks/margin/margin.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* input */
@@ -12,6 +14,7 @@
 @import url(../blocks/button/_color/button_color_blue.css);
 @import url(../blocks/button/_color/button_color_purple.css);
 @import url(../blocks/button/_color/button_color_red.css);
+@import url(../blocks/button/_position/button_position_absolute.css);
 /* button-icon */
 @import url(../blocks/button-icon/button-icon.css);
 /* header */
@@ -33,7 +36,6 @@
 @import url(../blocks/grid/__information/grid__informatiom.css);
 /* table */
 @import url(../blocks/table/table.css);
-@import url(../blocks/table/__button/table__button.css);
 @import url(../blocks/table/__header/_type/table__header_type_lager.css);
 @import url(../blocks/table/__price-text/table__price-text.css);
 @import url(../blocks/table/__price-wrapper/table__price-wrapper.css);
@@ -62,6 +64,5 @@
 @import url(../blocks/table/_type/table_type_transaktion.css);
 @import url(../blocks/transaktion/__add-menu/transaktion__add-menu.css);
 @import url(../blocks/transaktion/__option-name/transaktion__option-name.css);
-@import url(../blocks/transaktion/__add-menu-button/transaktion__add-menu-button.css);
 /* verlangerungPfand */
 @import url(../blocks/verlangerungPfand/__container/verlangerungPfand__container.css);

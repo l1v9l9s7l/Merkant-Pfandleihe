@@ -1,7 +1,7 @@
 button {
   height: 30px;
   padding: 8px;
-  margin-top: 8px;
+  margin: 0;
   color: #E8E8E8;
   background: inherit;
   border: 1px solid #E8E8E8;
