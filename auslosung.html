@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lager / Artikelaufstellungv</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt="" />
+      </a>
+      <nav class="header__menu">
+        <h2 class="header__route">Auslösung</h2>
+        <button class="header__button header__button_type_box"></button>
+        <button class="header__button header__button_type_book"></button>
+        <button class="header__button header__button_type_exit"></button>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="tables-wrapper tables-wrapper_page_auslosung">
+        <div class="table table_padding_yes table_page_auslosung">
+          <p class="table__title">Auslösung</p>
+          <input
+            class="input input_size_full"
+            type="text"
+            placeholder="Direkte Nummer oder Artikelbezeichnung"
+          />
+          <button class="button button_color_green button_size_full mt8">Senden</button>
+        </div>
+        <div class="table table_padding_yes table_page_auslosung">
+          <p class="table__title">Darlehen Beenden</p>
+          <input
+            class="input_size_full"
+            type="text"
+            placeholder="Direkte Nummer oder Artikelbezeichnung"
+          />
+          <button class="button button_color_red button_size_full mt8">Senden</button>
+        </div>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>

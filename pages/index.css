@@ -6,6 +6,7 @@
 @import url(../blocks/page/page.css);
 /* input */
 @import url(../blocks/input/input.css);
+@import url(../blocks/input/_size/input_size_full.css);
 /* button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_color/button_color_grey.css);
@@ -15,6 +16,7 @@
 @import url(../blocks/button/_color/button_color_purple.css);
 @import url(../blocks/button/_color/button_color_red.css);
 @import url(../blocks/button/_position/button_position_absolute.css);
+@import url(../blocks/button/_size/button_size_full.css);
 /* button-icon */
 @import url(../blocks/button-icon/button-icon.css);
 /* header */
@@ -40,12 +42,16 @@
 @import url(../blocks/grid/__item-text/_page/grid__item-text_page_index.css);
 @import url(../blocks/grid/__item-text/_page/grid__item-text_page_abfragen.css);
 @import url(../blocks/grid/__item/_page/grid__item_page_abfragen.css);
+
 /* table */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__header/_type/table__header_type_lager.css);
 @import url(../blocks/table/__price-text/table__price-text.css);
 @import url(../blocks/table/__price-wrapper/table__price-wrapper.css);
 @import url(../blocks/table/__price/table__price.css);
+@import url(../blocks/table/_padding/table_padding_yes.css);
+@import url(../blocks/table/__title/table__title.css);
+@import url(../blocks/table/_page/table_page_auslosung.css);
 /* search */
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__textarea/search__textarea.css);
@@ -62,8 +68,9 @@
 @import url(../blocks/transaktion-list/__header/transaktion-list__header.css);
 @import url(../blocks/transaktion-list/__item/transaktion-list__item.css);
 @import url(../blocks/transaktion-list/__item-text/transaktion-list__item-text.css);
-/* transaktion-tables-wrapper */
-@import url(../blocks/transaktion-tables-wrapper/transaktion-tables-wrapper.css);
+/* tables-wrapper */
+@import url(../blocks/tables-wrapper/tables-wrapper.css);
+@import url(../blocks/tables-wrapper/_page/tables-wrapper_page_auslosung.css);
 /* transaktion*/
 @import url(../blocks/transaktion/transaktion.css);
 @import url(../blocks/transaktion/__add-menu-input/transaktion__add-menu-input.css);
