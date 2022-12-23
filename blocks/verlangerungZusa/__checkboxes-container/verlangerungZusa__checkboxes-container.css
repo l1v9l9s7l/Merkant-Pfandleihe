@@ -1,0 +1,9 @@
+.verlangerungZusa__checkboxes-container {
+  display: flex;
+  flex-direction: column;
+  align-self: start;
+  border: none;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 0;
+}
