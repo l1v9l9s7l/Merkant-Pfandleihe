@@ -1,11 +1,4 @@
 .grid__item-text{
-  text-transform: uppercase;
   font-family: inter;
-  font-size: 24px;
-  font-style: italic;
-  font-weight: 600;
-  line-height: 29px;
   letter-spacing: -0.02em;
-  text-align: right;
-  margin: 0px 17px 7px 0px;
 }

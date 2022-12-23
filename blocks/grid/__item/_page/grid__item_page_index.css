@@ -1,0 +1,67 @@
+.grid__item_page_index{
+  flex-direction: column;
+  justify-content:end;
+  background-repeat: no-repeat;
+  background-position: 0% 30%;
+}
+
+.grid__item_page_index:nth-child(1){
+  background-image: url(../../../../images/beleihung-icon.png);
+}
+
+.grid__item_page_index:nth-child(2){
+  background-image: url(../../../../../images/verlangerung-icon.png);
+}
+
+.grid__item_page_index:nth-child(3){
+  background-image: url(../../../../images/auslosung-icon.png);
+}
+
+.grid__item_page_index:nth-child(4){
+  background-image: url(../../../../images/verkauf-icon.png);
+}
+
+.grid__item_page_index:nth-child(5){
+  background-color: #367BF5;
+  background-image: url(../../../../images/kunden-icon.png);
+}
+
+.grid__item_page_index:nth-child(6){
+  background-color: #367BF5;
+  background-image: url(../../../../images/lager-icon.png);
+}
+
+.grid__item_page_index:nth-child(7){
+  background-color: #367BF5;
+  background-image: url(../../../../images/transaktionen-icon.png);
+}
+
+.grid__item_page_index:nth-child(8){
+  background-color: #E8AC37;
+  grid-area: 'einkauf';
+  background-image: url(../../../../images/einkauf-icon.png);
+}
+
+.grid__item_page_index:nth-child(9){
+  background-color: #367BF5;
+  background-image: url(../../../../images/rechnungen-icon.png);
+}
+
+.grid__item_page_index:nth-child(10){
+  background-color: #367BF5;
+  background-image: url(../../../../images/darlehen-icon.png);
+}
+
+.grid__item_page_index:nth-child(11){
+  background-color:  #313537;
+  grid-area: field;
+  width: 100%;
+  color: #6F6F6F;
+  font-size: 14px;
+  background-image: none;
+  justify-content: start;
+}
+
+.grid__item_page_index:nth-child(11):hover{
+  box-shadow: none;
+}

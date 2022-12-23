@@ -1,0 +1,9 @@
+.grid__item-text_page_index{
+  text-transform: uppercase;
+  font-size: 24px;
+  font-style: italic;
+  font-weight: 600;
+  line-height: 29px;
+  text-align: right;
+  margin: 0px 17px 7px 0px;
+}

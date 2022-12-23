@@ -34,6 +34,12 @@
 @import url(../blocks/grid/__item-image/grid__item-image.css);
 @import url(../blocks/grid/__item-text/grid__item-text.css);
 @import url(../blocks/grid/__information/grid__informatiom.css);
+@import url(../blocks/grid/_page/grid_page_index.css);
+@import url(../blocks/grid/__item/_page/grid__item_page_index.css);
+@import url(../blocks/grid/_page/grid__item_page_abfragen.css);
+@import url(../blocks/grid/__item-text/_page/grid__item-text_page_index.css);
+@import url(../blocks/grid/__item-text/_page/grid__item-text_page_abfragen.css);
+@import url(../blocks/grid/__item/_page/grid__item_page_abfragen.css);
 /* table */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__header/_type/table__header_type_lager.css);
