@@ -1,0 +1,23 @@
+.input_type_visible {
+  display: inline-block;
+  vertical-align: middle;
+  width: 16px;
+  height: 16px;
+  margin: 7px;
+  border: 2px solid #fff;
+  border-radius: 50%;
+  cursor: pointer;
+  box-sizing: border-box;
+}
+
+input[type="checkbox"]:disabled + .input_type_visible {
+  border: 3px solid #fff;
+}
+input[type="checkbox"]:checked + .input_type_visible {
+  background-image: url(../../../images/point.svg);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+input[type="checkbox"]:focus + .input_type_visible {
+  border: 2px solid #7cb92d;
+}
