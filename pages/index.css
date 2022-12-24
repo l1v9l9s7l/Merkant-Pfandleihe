@@ -56,6 +56,7 @@
 @import url(../blocks/table/_padding/table_padding_yes.css);
 @import url(../blocks/table/__title/table__title.css);
 @import url(../blocks/table/_page/table_page_auslosung.css);
+@import url(../blocks/table/__text/table__text.css);
 /* search */
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__textarea/search__textarea.css);

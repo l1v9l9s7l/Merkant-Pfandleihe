@@ -1,4 +1,5 @@
 .table{
   background-color: rgba(49, 53, 55, 1);
   border-radius: 10px;
+  min-width: 400px;
 }
