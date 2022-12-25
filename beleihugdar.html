@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BELEIHUNG / Darlehen</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt="" />
+      </a>
+      <nav class="header__menu">
+        <h2 class="header__route">BELEIHUNG / Darlehen</h2>
+        <button class="header__button header__button_type_box"></button>
+        <button class="header__button header__button_type_book"></button>
+        <button class="header__button header__button_type_exit"></button>
+      </nav>
+    </header>
+    <main class="main">
+      <form class="table verlangerungPfand__container">
+        <h2 class="transaktion__option-name">Darlehenssumme</h2>
+        <input
+          class="input input_size_full"
+          type="text"
+          placeholder="Direkte Nummer oder Artikelbezeichnung"
+        />
+      </form>
+      <div class="table mt16 table_padding_yes">
+        <div class="flex-container flex-container_justify_sb">
+          <div>
+            <p class="table__title">Pfandscheingebuehr:</p>
+            <input class="input input_size_235" type="text" placeholder="Automatisch" />
+            <div class="mt8">
+              <p class="table__text">Liza Offerdinger 04.09.1993</p>
+              <p class="table__text">Hauptstrasse 180/1/5, 1140 Wien</p>
+            </div>
+          </div>
+          <div>
+            <p class="table__title">Zinsen in Prozent:</p>
+            <input class="input input_size_235" type="text" placeholder="7" />
+          </div>
+          <div>
+            <p class="table__title">Bearbeitungsgebuehr in Prozent:</p>
+            <input class="input input_size_235" type="text" placeholder="2" />
+          </div>
+          <div>
+            <p class="table__title">Lagergebuehr:</p>
+            <input class="input input_size_235" type="text" placeholder="Automatisch" />
+            <div class="mt8">
+              <p class="table__text">Liza Offerdinger 04.09.1993</p>
+              <p class="table__text">Hauptstrasse 180/1/5, 1140 Wien</p>
+            </div>
+          </div>
+        </div>
+        <div class="table table_border_green flex-container flex-container_justify_sb mt16">
+          <p class="text text_align_center text_size_small ml16">Warenhandel</p>
+          <p class="text text_align_center text_size_small">EK-preis total: <p class="text text_color_green">1.466 €</p></p>
+          <p class="text text_align_center text_size_small">EK-preis total: <p class="text text_color_green">1.466 €</p></p>
+          <p class="text text_align_center text_size_small">Summe: <p class="text text_color_green">2.836,35 €</p></p>
+          <p class="text text_align_center text_size_small">Steuer: <p class="text text_color_green">1.527,35 €</p></p>
+        </div>
+        <button class="button_color_green button_size_full mt16">
+          Senden <img src="./images/arrow.svg" alt="submit" class="ml8" />
+        </button>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>

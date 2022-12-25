@@ -8,6 +8,9 @@ button {
   border-radius: 4px;
   box-sizing: border-box;
   cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 button:hover {
