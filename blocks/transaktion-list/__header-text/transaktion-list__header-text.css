@@ -6,26 +6,11 @@
   line-height: 15px;
   letter-spacing: -0.02em;
   text-align: left;
+  width: 140px;
 
 }
 
 .transaktion-list__header-text:nth-child(1){
   margin-left: 24px;
-  margin-right: 46px;
+  width: 110px;
 }
-
-.transaktion-list__header-text:nth-child(2){
-  margin-right: 82px;
-}
-
-.transaktion-list__header-text:nth-child(3){
-  margin-right: 82px;
-}
-
-.transaktion-list__header-text:nth-child(4){
-  margin-right: 102px;
-}
-
-/* .transaktion-list__header-text:nth-child(5){
-  margin-right: 32px;
-} */

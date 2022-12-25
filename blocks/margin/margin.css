@@ -1,3 +1,7 @@
+/* margin 0 */
+.m0{
+  margin: 0;
+}
 /* left */
 .ml1 {
   margin-left: 1px;
@@ -29,6 +33,10 @@
 
 .ml8 {
   margin-left: 8px;
+}
+
+.ml16 {
+  margin-left: 16px;
 }
 
 /* right */
@@ -64,6 +72,15 @@
   margin-right: 8px;
 }
 
+.mr16 {
+  margin-right: 16px;
+}
+
+.mr300 {
+  margin-right: 300px;
+}
+
+
 /* top */
 .mt1 {
   margin-top: 1px;
@@ -98,6 +115,10 @@
 }
 .mt16 {
   margin-top: 16px;
+}
+
+.mt23 {
+  margin-top: 23px;
 }
 
 /* bottom */

@@ -8,6 +8,15 @@
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/_size/input_size_full.css);
 @import url(../blocks/input/_type/input_type_visible.css);
+@import url(../blocks/input/_size/input_size_235.css);
+/* text */
+@import url(../blocks/text/text.css);
+@import url(../blocks/text/_size/text_size_small.css);
+@import url(../blocks/text/_color/text_color_green.css);
+@import url(../blocks/text/_align/text_align_center.css);
+/* flex-container */
+@import url(../blocks/flex-container/flex-container.css);
+@import url(../blocks/flex-container/_justify/flex-container_justify_sb.css);
 /* button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_color/button_color_grey.css);
@@ -57,6 +66,10 @@
 @import url(../blocks/table/__title/table__title.css);
 @import url(../blocks/table/_page/table_page_auslosung.css);
 @import url(../blocks/table/__text/table__text.css);
+@import url(../blocks/table/_border/table_border_grey.css);
+@import url(../blocks/table/_border/table_border_green.css);
+/* checkbox */
+@import url(../blocks/checkbox/checkbox.css);
 /* search */
 @import url(../blocks/search/search.css);
 @import url(../blocks/search/__textarea/search__textarea.css);
