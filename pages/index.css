@@ -2,6 +2,8 @@
 @import url(../vendors/fonts/fonts.css);
 /* margin */
 @import url(../blocks/margin/margin.css);
+/* width */
+@import url(../blocks/width/width.css);
 /* page */
 @import url(../blocks/page/page.css);
 /* input */
@@ -17,6 +19,7 @@
 /* flex-container */
 @import url(../blocks/flex-container/flex-container.css);
 @import url(../blocks/flex-container/_justify/flex-container_justify_sb.css);
+@import url(../blocks/flex-container/_justify/flex-container_justify_c.css);
 /* button */
 @import url(../blocks/button/button.css);
 @import url(../blocks/button/_color/button_color_grey.css);
@@ -68,6 +71,8 @@
 @import url(../blocks/table/__text/table__text.css);
 @import url(../blocks/table/_border/table_border_grey.css);
 @import url(../blocks/table/_border/table_border_green.css);
+@import url(../blocks/table/_size/table_size_1.css);
+@import url(../blocks/table/_size/table_size_2.css);
 /* checkbox */
 @import url(../blocks/checkbox/checkbox.css);
 /* search */
@@ -105,4 +110,6 @@
 @import url(../blocks/verkauf-artikel/__buttons-container/verkauf-artikel__buttons-container.css);
 /* verlangerungZusa */
 @import url(../blocks/verlangerungZusa/__checkboxes-container/verlangerungZusa__checkboxes-container.css);
+/* id-photo */
+@import url(../blocks/id-photo/id-photo.css);
 
