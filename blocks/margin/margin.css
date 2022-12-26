@@ -81,6 +81,14 @@
   margin-right: 16px;
 }
 
+.mr60 {
+  margin-right: 60px;
+}
+
+.mr80 {
+  margin-right: 80px;
+}
+
 .mr300 {
   margin-right: 300px;
 }
@@ -127,6 +135,7 @@
 }
 
 /* bottom */
+
 .mb1 {
   margin-bottom: 1px;
 }
@@ -158,6 +167,11 @@
 .mb8 {
   margin-bottom: 8px;
 }
+
 .mb16 {
   margin-bottom: 16px;
+}
+
+.mb100 {
+  margin-bottom: 100px;
 }
