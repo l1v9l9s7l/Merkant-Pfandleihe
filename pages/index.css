@@ -20,6 +20,7 @@
 @import url(../blocks/text/_size/text_size_small.css);
 @import url(../blocks/text/_color/text_color_green.css);
 @import url(../blocks/text/_align/text_align_center.css);
+@import url(../blocks/text/_color/text_color_red.css);
 /* flex-container */
 @import url(../blocks/flex-container/flex-container.css);
 @import url(../blocks/flex-container/_justify/flex-container_justify_sb.css);
@@ -37,7 +38,6 @@
 @import url(../blocks/button/_size/button_size_full.css);
 /* button-icon */
 @import url(../blocks/button-icon/button-icon.css);
-
 /* header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/header/__logo/header__logo.css);
@@ -63,7 +63,6 @@
 @import url(../blocks/grid/__item-text/_page/grid__item-text_page_index.css);
 @import url(../blocks/grid/__item-text/_page/grid__item-text_page_abfragen.css);
 @import url(../blocks/grid/__item/_page/grid__item_page_abfragen.css);
-
 /* table */
 @import url(../blocks/table/table.css);
 @import url(../blocks/table/__header/_type/table__header_type_lager.css);
@@ -105,16 +104,17 @@
 @import url(../blocks/table/_type/table_type_transaktion.css);
 @import url(../blocks/transaktion/__add-menu/transaktion__add-menu.css);
 @import url(../blocks/transaktion/__option-name/transaktion__option-name.css);
-/* verlangerungPfand */
-@import url(../blocks/verlangerungPfand/__container/verlangerungPfand__container.css);
-@import url(../blocks/verlangerungPfand/__title/verlangerungPfand__title.css);
-@import url(../blocks/verlangerungPfand/__input/verlangerungPfand__input.css);
-@import url(../blocks/verlangerungPfand/__button/verlangerungPfand__button.css);
+/* verlangerung-pfand */
+@import url(../blocks/verlangerung-pfand/__container/verlangerung-pfand__container.css);
+@import url(../blocks/verlangerung-pfand/__title/verlangerung-pfand__title.css);
+@import url(../blocks/verlangerung-pfand/__input/verlangerung-pfand__input.css);
+@import url(../blocks/verlangerung-pfand/__button/verlangerung-pfand__button.css);
 /* verkauf-artikel */
 @import url(../blocks/verkauf-artikel/__button_plus/verkauf-artikel__button_plus.css);
 @import url(../blocks/verkauf-artikel/__buttons-container/verkauf-artikel__buttons-container.css);
-/* verlangerungZusa */
-@import url(../blocks/verlangerungZusa/__checkboxes-container/verlangerungZusa__checkboxes-container.css);
+/* verlangerung-zusa */
+@import url(../blocks/verlangerung-zusa/__checkboxes-container/verlangerung-zusa__checkboxes-container.css);
 /* id-photo */
 @import url(../blocks/id-photo/id-photo.css);
-
+/* fieldset */
+@import url(../blocks/fieldset/_type/fieldset_type_textfield.css);

@@ -1,5 +1,5 @@
-.verlangerungPfand__container {
-  max-width: 400px;
+.verlangerung-pfand__container {
+  width: 400px;
   display: flex;
   flex-direction: column;
   align-items: center;
