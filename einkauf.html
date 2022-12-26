@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EINKAUF</title>
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="#" />
+  </head>
+  <body class="page">
+    <header class="header">
+      <a href="./index.html">
+        <img class="header__logo" src="./images/logo.png" alt="" />
+      </a>
+      <nav class="header__menu">
+        <h2 class="header__route">EINKAUF</h2>
+        <button class="header__button header__button_type_box"></button>
+        <button class="header__button header__button_type_book"></button>
+        <button class="header__button header__button_type_exit"></button>
+      </nav>
+    </header>
+    <main class="main">
+      <div class="table mt16 table_padding_yes ma">
+        <div class="flex-container border__bottom_color_grey">
+          <div class="w-320 mr16 mb16">
+            <p class="table__title">Personaldaten</p>
+            <input class="input input_size_full mt11 w-320" type="text" placeholder="Vorname" />
+            <input class="input input_size_full mt8 w-320" type="text" placeholder="Nachname" />
+            <input class="input input_size_full mt8 w-320" type="text" placeholder="Geburtsdatum" />
+            <button class="button button_size_full mt8">
+              Datei aswählen <img class="ml8" src="./images/add.svg" alt="" />
+            </button>
+          </div>
+
+          <div class="w-320 mr16">
+            <p class="table__title">Anschrift</p>
+            <input class="input input_size_full mt11 w-320" type="text" placeholder="Strasse" />
+            <input class="input input_size_full mt8 w-320" type="text" placeholder="Hausnummer" />
+            <input class="input input_size_full mt8 w-320" type="text" placeholder="Postleitzahl" />
+            <input class="input input_size_full mt8 w-320" type="text" placeholder="Wein" />
+          </div>
+
+          <div class="w-320">
+            <p class="table__title">Kontakt</p>
+            <input
+              class="input input_size_full mt11 w-320"
+              type="text"
+              placeholder="Telefonnummer"
+            />
+            <input class="input input_size_full mt8 w-320" type="text" placeholder="Email" />
+            <input class="input input_size_full mt8 w-320" type="text" placeholder="UID-NUMMER" />
+          </div>
+        </div>
+
+        <div class="flex-container border__bottom_color_grey">
+          <div class="w-320 mr16 mb16">
+            <p class="table__title">Bestandskunde</p>
+            <input
+              class="input input_size_full mt11 w-320"
+              type="text"
+              placeholder="Kundennummer oder Name (mind. 3 symbole)"
+            />
+          </div>
+        </div>
+
+        <button class="button_color_green button_size_full mt8">
+          Senden <img src="./images/arrow.svg" alt="submit" class="ml8" />
+        </button>
+      </div>
+    </main>
+    <footer class="footer"></footer>
+  </body>
+</html>

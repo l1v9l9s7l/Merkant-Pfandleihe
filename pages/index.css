@@ -11,6 +11,8 @@
 @import url(../blocks/input/_size/input_size_full.css);
 @import url(../blocks/input/_type/input_type_visible.css);
 @import url(../blocks/input/_size/input_size_235.css);
+/* bottom */
+@import url(../blocks/border/__bottom/_color/border__bottom_color_grey.css);
 /* text */
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/_size/text_size_small.css);
