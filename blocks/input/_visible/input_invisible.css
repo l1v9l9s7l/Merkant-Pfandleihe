@@ -1,0 +1,8 @@
+.input_invisible{
+  visibility: hidden;
+}
+
+
+.input_invisible:checked + .input_type_radio::before{
+  opacity: 0;
+}
