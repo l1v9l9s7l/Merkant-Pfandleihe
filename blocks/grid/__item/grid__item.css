@@ -10,5 +10,6 @@
 }
 
 .grid__item:hover{
-  box-shadow: 0px 0px 20px rgba(206, 207, 202, 0.695);
+  /* box-shadow: 0px 0px 20px rgba(206, 207, 202, 0.695); */
+  opacity: 0.87;
 }
