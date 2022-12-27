@@ -22,20 +22,24 @@
     </header>
     <main class="main">
       <div class="tables-wrapper">
-        <div class="table table_padding_yes">
+        <form class="table table_padding_yes w-400">
           <p class="table__text">Initialrechnung: 1940</p>
           <p class="table__text">Betrag: 2,194</p>
-          <button class="button button_color_grey button_size_full mt16">Zahlung</button>
-          <div class="flex-container mt23">
-            <input type="radio" name="123" id="" class="mr16" />
-            <p class="table__text">Bar</p>
+          <button disabled class="button button_color_grey button_size_full mt16">Zahlung</button>
+
+          <div class="radio mt23 flex-container">
+            <input class="radio__input" type="radio" name="off" id="auslosrech-in-1" />
+            <label class="radio__label table__text" for="auslosrech-in-1">Bar</label>
           </div>
-          <div class="flex-container mt16">
-            <input type="radio" name="123" id="" class="mr16" />
-            <p class="table__text">Ueberweisung</p>
+          <div class="radio flex-container">
+            <input class="radio__input" type="radio" name="off" id="auslosrech-in-2" />
+            <label class="radio__label table__text" for="auslosrech-in-2">Ueberweisung</label>
           </div>
-          <button class="button button_color_green button_size_full mt23">Zahlung</button>
-        </div>
+
+          <button type="submit" class="button button_color_green button_size_full mt23">
+            Rechnungsbetrag Erhalten
+          </button>
+        </form>
       </div>
     </main>
     <footer class="footer"></footer>

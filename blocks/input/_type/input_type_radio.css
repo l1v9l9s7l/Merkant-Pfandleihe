@@ -1,0 +1,37 @@
+.radio{
+  position: relative;
+  align-items: center;
+  height: 25px;
+}
+
+.radio__input{
+  -webkit-appearance: none;
+  appearance: none;
+  position: absolute;
+}
+
+.radio__label{
+  padding-left: 25px;
+  font-size: 1rem;
+  color: #444;
+  cursor: pointer;
+}
+
+.radio__label::before{
+  content: "";
+  display: block;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  background-image: url(../../../images/radio-deactive-2.png);
+  background-size: contain;
+}
+
+.radio__input:checked + .radio__label:before {
+  border-color: blue;
+  background-image: url(../../../images/radio-active.png);
+}
