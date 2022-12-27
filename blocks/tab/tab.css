@@ -1,0 +1,13 @@
+.tab {
+  height: 30px;
+  border-radius: 4px 4px 0 0;
+  background: #DADADA;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.tab:hover {
+  background: #7CB92D;
+}

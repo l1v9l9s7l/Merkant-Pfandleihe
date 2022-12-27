@@ -6,6 +6,7 @@
 @import url(../blocks/width/width.css);
 /* page */
 @import url(../blocks/page/page.css);
+@import url(../blocks/page/_color/page_color_white.css);
 /* input */
 @import url(../blocks/input/input.css);
 @import url(../blocks/input/_size/input_size_full.css);
@@ -20,9 +21,11 @@
 /* text */
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/_size/text_size_small.css);
+@import url(../blocks/text/_size/text_size_subtitle.css);
 @import url(../blocks/text/_color/text_color_green.css);
 @import url(../blocks/text/_align/text_align_center.css);
 @import url(../blocks/text/_color/text_color_red.css);
+@import url(../blocks/text/_color/text_color_black.css);
 /* flex-container */
 @import url(../blocks/flex-container/flex-container.css);
 @import url(../blocks/flex-container/_justify/flex-container_justify_sb.css);
@@ -79,6 +82,7 @@
 @import url(../blocks/table/_border/table_border_green.css);
 @import url(../blocks/table/_size/table_size_1.css);
 @import url(../blocks/table/_size/table_size_2.css);
+@import url(../blocks/table/_color/table_color_white.css);
 /* checkbox */
 @import url(../blocks/checkbox/checkbox.css);
 /* search */
@@ -120,3 +124,13 @@
 @import url(../blocks/id-photo/id-photo.css);
 /* fieldset */
 @import url(../blocks/fieldset/_type/fieldset_type_textfield.css);
+@import url(../blocks/link/link.css);
+/* li */
+@import url(../blocks/li/li.css);
+/* tabs-panel */
+@import url(../blocks/tabs-panel/tabs-panel.css);
+/* tab */
+@import url(../blocks/tab/tab.css);
+@import url(../blocks/tab/_active/tab_active.css);
+/* green-line */
+@import url(../blocks/green-line/green-line.css);
