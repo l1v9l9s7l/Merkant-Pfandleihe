@@ -21,7 +21,7 @@
       </nav>
     </header>
     <main class="main">
-      <div class="table mt16 table_padding_yes ma">
+      <form class="table mt16 table_padding_yes ma">
         <div class="flex-container">
           <div class="w-320 mr16 mb16">
             <button class="button button_color_dark-grey button_size_full mb16">Kunde</button>
@@ -54,13 +54,14 @@
         <div class="flex-container mt16">
           <div class="w-320 mr16 mb16">
             <button class="button button_color_dark-grey button_size_full mb16">Zahlung</button>
-            <div class="flex-container ml8">
-              <input type="radio" />
-              <p class="text text_size_small ml16">Bar</p>
+
+            <div class="radio mt23 flex-container ml4">
+              <input class="radio__input" type="radio" name="radio" id="beldar-in-1" />
+              <label class="radio__label table__text" for="beldar-in-1">Bar</label>
             </div>
-            <div class="flex-container ml8">
-              <input type="radio" />
-              <p class="text text_size_small ml16 m0">Ueberweisung</p>
+            <div class="radio flex-container ml4">
+              <input class="radio__input" type="radio" name="radio" id="beldar-in-2" />
+              <label class="radio__label table__text" for="beldar-in-2">Ueberweisung</label>
             </div>
           </div>
 
@@ -82,7 +83,7 @@
         <button class="button_color_green button_size_full mt8">
           Senden <img src="./images/arrow.svg" alt="submit" class="ml8" />
         </button>
-      </div>
+      </form>
     </main>
     <footer class="footer"></footer>
   </body>
