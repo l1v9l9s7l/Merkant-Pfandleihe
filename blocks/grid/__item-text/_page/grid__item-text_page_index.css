@@ -7,3 +7,11 @@
   text-align: right;
   margin: 0px 17px 7px 0px;
 }
+
+
+@media screen  and (min-width : 1400px){
+  .grid__item-text_page_index{
+    font-size: 30px;
+  
+  }
+}
