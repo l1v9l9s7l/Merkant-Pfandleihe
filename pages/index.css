@@ -22,6 +22,7 @@
 @import url(../blocks/text/text.css);
 @import url(../blocks/text/_size/text_size_small.css);
 @import url(../blocks/text/_size/text_size_subtitle.css);
+@import url(../blocks/text/_size/text_size_16.css);
 @import url(../blocks/text/_color/text_color_green.css);
 @import url(../blocks/text/_align/text_align_center.css);
 @import url(../blocks/text/_color/text_color_red.css);
@@ -134,3 +135,5 @@
 @import url(../blocks/tab/_active/tab_active.css);
 /* green-line */
 @import url(../blocks/green-line/green-line.css);
+/* string */
+@import url(../blocks/string/string.css);
