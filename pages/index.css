@@ -14,8 +14,9 @@
 @import url(../blocks/input/_size/input_size_235.css);
 @import url(../blocks/input/_type/input_type_radio.css);
 @import url(../blocks/input/_visible/input_invisible.css);
-/* bottom */
+/* border */
 @import url(../blocks/border/__bottom/_color/border__bottom_color_grey.css);
+@import url(../blocks/border/_color_green/border_color_green.css);
 /* position */
 @import url(../blocks/position/position.css);
 /* text */
@@ -28,6 +29,7 @@
 @import url(../blocks/text/_color/text_color_red.css);
 @import url(../blocks/text/_color/text_color_black.css);
 @import url(../blocks/text/_color/text_color_white.css);
+@import url(../blocks/text/_color/text_color_lawngreen.css);
 /* flex-container */
 @import url(../blocks/flex-container/flex-container.css);
 @import url(../blocks/flex-container/_justify/flex-container_justify_sb.css);
@@ -144,3 +146,12 @@
 @import url(../blocks/count/__date/count__number.css);
 /* select */
 @import url(../blocks/select/select.css);
+/* bill */
+@import url(../blocks/bill/bill.css);
+@import url(../blocks/bill/__header/bill__header.css);
+@import url(../blocks/bill/__user-info/bill__user-info.css);
+@import url(../blocks/bill/__date/bill__date.css);
+@import url(../blocks/bill/__string/bill__string.css);
+@import url(../blocks/bill/__text/bill__text.css);
+@import url(../blocks/bill/__text/_size/bill__text_size_M.css);
+@import url(../blocks/bill/__text/_size/bill__text_size_L.css);

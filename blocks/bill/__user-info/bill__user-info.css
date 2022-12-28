@@ -1,0 +1,7 @@
+.bill__user-info {
+  margin: 0 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  text-transform: uppercase;
+}
