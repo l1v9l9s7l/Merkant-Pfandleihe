@@ -1,0 +1,10 @@
+.count__number {
+  width: 33px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: inherit;
+  border: 1px solid #7CB92D;
+  border-radius:  0 4px 4px 0;
+}

@@ -27,6 +27,7 @@
 @import url(../blocks/text/_align/text_align_center.css);
 @import url(../blocks/text/_color/text_color_red.css);
 @import url(../blocks/text/_color/text_color_black.css);
+@import url(../blocks/text/_color/text_color_white.css);
 /* flex-container */
 @import url(../blocks/flex-container/flex-container.css);
 @import url(../blocks/flex-container/_justify/flex-container_justify_sb.css);
@@ -137,3 +138,9 @@
 @import url(../blocks/green-line/green-line.css);
 /* string */
 @import url(../blocks/string/string.css);
+/* count */
+@import url(../blocks/count/count.css);
+@import url(../blocks/count/__DR/count__DR.css);
+@import url(../blocks/count/__date/count__number.css);
+/* select */
+@import url(../blocks/select/select.css);

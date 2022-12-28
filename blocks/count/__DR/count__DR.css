@@ -1,0 +1,10 @@
+.count__DR {
+  width: 33px;
+  height: 22px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #7CB92D;
+  border: 1px solid #7CB92D;
+  border-radius: 4px 0 0 4px;
+}

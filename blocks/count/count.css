@@ -1,0 +1,6 @@
+.count {
+  height: 22px;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+}
