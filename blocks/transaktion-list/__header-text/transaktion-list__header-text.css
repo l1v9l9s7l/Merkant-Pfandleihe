@@ -19,11 +19,17 @@
 @media screen and (min-width : 1600px) {
   .transaktion-list__header-text{
     font-size: 15px;
+    width: 175px;
+  }
+
+  .transaktion-list__header-text:nth-child(1){
+    width: 137px;
   }
 }
 
 @media screen and (min-width : 2048px) {
   .transaktion-list__header-text{
     font-size: 18px;
+    width: 218px;
   }
 }

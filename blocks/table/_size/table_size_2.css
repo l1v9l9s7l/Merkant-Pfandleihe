@@ -1,3 +1,15 @@
 .table_size_2{
-  width: 375px;
+  width: 370px;
+}
+
+@media screen and (min-width : 1600px) {
+  .table_size_2{
+    width: 498px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .table_size_2{
+    width: 660px;
+  }
 }
