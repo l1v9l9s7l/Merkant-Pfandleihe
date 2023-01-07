@@ -14,3 +14,16 @@
   margin-left: 24px;
   width: 110px;
 }
+
+
+@media screen and (min-width : 1600px) {
+  .transaktion-list__item-text{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .transaktion-list__item-text{
+    font-size: 18px;
+  }
+}

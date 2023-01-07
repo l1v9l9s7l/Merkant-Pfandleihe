@@ -1,3 +1,15 @@
 .transaktion-list{
   min-width: 688px;
 }
+
+@media screen and (min-width : 1600px) {
+  .transaktion-list{
+    min-width: 860px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .transaktion-list{
+    min-width: 1075px;
+  }
+}
