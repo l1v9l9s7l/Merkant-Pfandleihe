@@ -7,3 +7,17 @@
   background-repeat: no-repeat;
   margin: 0;
 }
+
+@media screen and (min-width : 1600px) {
+  .header__button{
+    width: 35px;
+    height: 35px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .header__button{
+    width: 43px;
+    height: 43px;
+  }
+}

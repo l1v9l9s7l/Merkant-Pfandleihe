@@ -16,3 +16,18 @@ button {
 button:hover {
   opacity: .7;
 }
+
+@media screen and (min-width : 1600px) {
+  .button{
+    height: 37px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .button{
+    height: 46px;
+    font-size: 18px;
+  }
+
+}

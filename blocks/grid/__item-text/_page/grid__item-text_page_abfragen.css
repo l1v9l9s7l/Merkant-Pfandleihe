@@ -5,13 +5,13 @@
   text-align: left;
 }
 
-@media screen and (min-width : 1700px) {
+@media screen and (min-width : 1600px) {
   .grid__item-text_page_abfragen{
     font-size: 20px;
   }
 }
 
-@media screen and (min-width : 1950px) {
+@media screen and (min-width : 2048px) {
   .grid__item-text_page_abfragen{
     font-size: 25px;
   }

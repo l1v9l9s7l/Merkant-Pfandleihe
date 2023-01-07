@@ -3,3 +3,17 @@
   height: 30px;
   margin-left: 24px;
 }
+
+@media screen and (min-width : 1600px) {
+  .header__logo{
+    width: 216px;
+    height: 38px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .header__logo{
+    width: 270px;
+    height: 47px;
+  }
+}

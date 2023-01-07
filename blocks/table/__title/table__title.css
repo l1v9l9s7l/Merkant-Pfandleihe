@@ -7,3 +7,15 @@
   letter-spacing: -0.02em;
   text-align: center;
 }
+
+@media screen and (min-width : 1600px) {
+  .table__title{
+    font-size: 17px
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .table__title{
+    font-size: 21px
+  }
+}
