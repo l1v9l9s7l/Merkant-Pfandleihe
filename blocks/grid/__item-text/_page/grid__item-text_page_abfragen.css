@@ -4,3 +4,15 @@
   line-height: 19px;
   text-align: left;
 }
+
+@media screen and (min-width : 1700px) {
+  .grid__item-text_page_abfragen{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width : 1950px) {
+  .grid__item-text_page_abfragen{
+    font-size: 25px;
+  }
+}
