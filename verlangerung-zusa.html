@@ -25,53 +25,34 @@
         <fieldset class="fieldset_type_textfield">
           <p class="text m0">
             DARSTATUS IST aktiv
-            <br>
-            DARcurRG IST 1940 
-            <br>
-            <br>
-            KUNDENDATEN: 
-            <br>
+            <br />
+            DARcurRG IST 1940
+            <br />
+            <br />
+            KUNDENDATEN:
+            <br />
             Dmitry Anosov
-            <br>
-            <br>
-            1050 Wien 
-            <br>
-            <br>
-            ARTIKELDATEN: 
-            ARTIKELNUMMER: 
-            KATEGORIE: 
-            BEZEICHNUNG:
-            BESCHREIBUNG: 
-            <br>
-            <br>
-            ARTIKELDATEN: 
-            ARTIKELNUMMER: 
-            KATEGORIE: 
-            BEZEICHNUNG:
-            BESCHREIBUNG:
+            <br />
+            <br />
+            1050 Wien
+            <br />
+            <br />
+            ARTIKELDATEN: ARTIKELNUMMER: KATEGORIE: BEZEICHNUNG: BESCHREIBUNG:
+            <br />
+            <br />
+            ARTIKELDATEN: ARTIKELNUMMER: KATEGORIE: BEZEICHNUNG: BESCHREIBUNG:
           </p>
         </fieldset>
-        <button
-          class="button_color_dark-grey button_size_full mt16 mb16"
-        >
-          Zahlung
-        </button>
+        <button class="button_color_dark-grey button_size_full mt16 mb16">Zahlung</button>
         <fieldset class="verlangerung-zusa__checkboxes-container mb16">
-          <label for="bar" class="">
-            <input type="checkbox" name="bar" id="bar" class="" />
-            <span class="input_type_visible"></span>
-            <span class="">Bar</span>
-          </label>
-          <label for="Ueberweisung" class="">
-            <input
-              type="checkbox"
-              name="Ueberweisung"
-              id="Ueberweisung"
-              class=""
-            />
-            <span class="input_type_visible"></span>
-            <span class="">Ueberweisung</span>
-          </label>
+          <div class="radio flex-container">
+            <input class="radio__input" type="radio" name="off" id="auslosrech-in-1" />
+            <label class="radio__label table__text" for="auslosrech-in-1">Bar</label>
+          </div>
+          <div class="radio flex-container">
+            <input class="radio__input" type="radio" name="off" id="auslosrech-in-2" />
+            <label class="radio__label table__text" for="auslosrech-in-2">Ueberweisung</label>
+          </div>
         </fieldset>
         <button class="button_color_green button_size_full">
           Verlängern um 30 Tage
