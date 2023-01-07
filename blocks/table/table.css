@@ -4,3 +4,29 @@
   /* max-width: 1024px; */
   box-sizing: border-box;
 }
+
+
+
+@media screen and (max-width : 1599px) {
+  .table{
+    max-width: 1024px;
+  }
+}
+
+/* @media screen and (max-width : 2047px) {
+  .table{
+    max-width: 1270px;
+  }
+} */
+
+@media screen and (min-width : 1600px) {
+  .table{
+    max-width: 1280px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .table{
+    max-width: 1600px;
+  }
+}

@@ -1,3 +1,15 @@
 .text_size_small{
   font-size: 12px;
 }
+
+@media screen and (min-width : 1600px) {
+  .text_size_small{
+    font-size: 15px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .text_size_small{
+    font-size: 18px;
+  }
+}
