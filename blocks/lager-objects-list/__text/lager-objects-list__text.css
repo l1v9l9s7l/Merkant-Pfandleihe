@@ -53,3 +53,45 @@
 .lager-objects-list__text:nth-child(11){
   color: rgba(124, 185, 45, 1);
 }
+
+@media screen and (min-width : 1600px) {
+  .lager-objects-list__text{
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  .lager-objects-list__text:nth-child(4){
+    margin-right: 105px;
+  }
+
+  .lager-objects-list__text:nth-child(7){
+    margin-right: 40px;
+  }
+
+  .lager-objects-list__text:nth-child(8){
+    margin-right: 76px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .lager-objects-list__text{
+    font-size: 18px;
+    line-height: 23px;
+  }
+
+  .lager-objects-list__text:nth-child(4){
+    margin-right: 110px;
+  }
+
+  .lager-objects-list__text:nth-child(7){
+    margin-right: 48px;
+  }
+
+  .lager-objects-list__text:nth-child(8){
+    margin-right: 80px;
+  }
+
+  .lager-objects-list__text:nth-child(9){
+    margin-right: 60px;
+  }
+}

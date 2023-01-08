@@ -43,3 +43,18 @@
 .lager-objects-list__header-text:nth-child(9){
   margin-right: 41px;
 }
+
+
+@media screen and (min-width : 1600px) {
+  .lager-objects-list__header-text{
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .lager-objects-list__header-text{
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

@@ -3,3 +3,19 @@
   height: 280px;
   background-color: white;
 }
+
+@media screen and (min-width : 1600px) {
+  .id-photo{
+    width: 600px;
+    height: 350px;
+  }
+  
+}
+
+@media screen and (min-width : 2048px) {
+  .id-photo{
+    width: 750px;
+    height: 437px;
+  }
+  
+}

@@ -4,3 +4,17 @@
   width: 210px;
   position: relative;
 }
+
+@media screen and (min-width : 1600px) {
+  .search{
+    height: 31px;
+    width: 262px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .search{
+    height: 31px;
+    width: 318px;
+  }
+}

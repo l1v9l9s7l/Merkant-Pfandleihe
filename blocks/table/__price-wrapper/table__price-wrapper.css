@@ -10,3 +10,17 @@
   /* align-items: center; */
   justify-content: center;
 }
+
+@media screen and (min-width : 1600px) {
+  .table__price-wrapper{
+    height: 67px;
+    width: 152px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .table__price-wrapper{
+    height: 70px;
+    width: 167px;
+  }
+}

@@ -10,3 +10,17 @@
   margin-right: 10px;
 
 }
+
+@media screen and (min-width : 1600px) {
+  .table__price-text{
+    font-size: 15px;
+    line-height: 18px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .table__price-text{
+    font-size: 18px;
+    line-height: 23px;
+  }
+}

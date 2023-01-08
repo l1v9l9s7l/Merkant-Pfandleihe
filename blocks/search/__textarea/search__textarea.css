@@ -22,3 +22,33 @@
   font-weight: 500;
   line-height: 30px;
 }
+
+@media screen and (min-width : 1600px) {
+  .search__textarea{
+    width: 193px;
+    height: 37px;  
+  }
+
+  ::placeholder{
+    padding-left: 10px;
+    font-family: Inter;
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .search__textarea{
+    width: 242px;
+    height: 46px;  
+  }
+
+  ::placeholder{
+    padding-left: 10px;
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+  }
+}

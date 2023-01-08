@@ -8,3 +8,17 @@
   letter-spacing: -0.02em;
   text-align: center;
 }
+
+@media screen and (min-width : 1600px) {
+  .table__price{
+    font-size: 19px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .table__price{
+    font-size: 21px;
+    line-height: 23px;
+  }
+}
