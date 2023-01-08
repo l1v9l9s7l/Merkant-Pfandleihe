@@ -1,3 +1,19 @@
 .verkauf-artikel__button_plus {
   margin-right: 8px;
+  width: 30px;
+  height: 30px;
+}
+
+@media screen and (min-width : 1600px) {
+  .verkauf-artikel__button_plus{
+    width: 37px;
+    height: 36px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .verkauf-artikel__button_plus{
+    width: 46px;
+    height: 45px;
+  }
 }

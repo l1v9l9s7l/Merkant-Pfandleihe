@@ -1,0 +1,15 @@
+.text_size_medium{
+  font-size: 16px;
+}
+
+@media screen and (min-width : 1600px) {
+  .text_size_medium{
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .text_size_medium{
+    font-size: 25px;
+  }
+}

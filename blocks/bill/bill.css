@@ -5,3 +5,15 @@
   flex-direction: column;
   box-sizing: border-box;
 }
+
+@media screen and (min-width : 1600px) {
+  .bill {
+    width: 1000px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .bill {
+    width: 1250px;
+  }
+}

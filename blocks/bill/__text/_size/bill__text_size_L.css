@@ -1,3 +1,16 @@
 .bill__text_size_L {
   font-size: 24px;
 }
+
+
+@media screen and (min-width : 1600px) {
+  .bill__text_size_L {
+    font-size: 30px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .bill__text_size_L {
+    font-size: 37px;
+  }
+}

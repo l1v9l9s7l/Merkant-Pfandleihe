@@ -5,3 +5,17 @@
   font-size: 20px;
   line-height: 24px;
 }
+
+@media screen and (min-width : 1600px) {
+  .text_size_subtitle {
+    font-size: 25px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .text_size_subtitle {
+    font-size: 30px;
+    line-height: 37px;
+  }
+}

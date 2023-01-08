@@ -30,6 +30,7 @@
 @import url(../blocks/text/_color/text_color_black.css);
 @import url(../blocks/text/_color/text_color_white.css);
 @import url(../blocks/text/_color/text_color_lawngreen.css);
+@import url(../blocks/text/_size/text_size_medium.css);
 /* flex-container */
 @import url(../blocks/flex-container/flex-container.css);
 @import url(../blocks/flex-container/_justify/flex-container_justify_sb.css);

@@ -20,6 +20,7 @@
   .transaktion-list__item-text{
     font-size: 15px;
     width: 175px;
+    line-height: 18px;
   }
 
   .transaktion-list__item-text:nth-child(1){
@@ -31,6 +32,7 @@
   .transaktion-list__item-text{
     font-size: 18px;
     width: 218px;
+    line-height: 23px;
   }
 
 }

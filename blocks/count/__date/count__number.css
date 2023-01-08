@@ -8,3 +8,17 @@
   border: 1px solid #7CB92D;
   border-radius:  0 4px 4px 0;
 }
+
+@media screen and (min-width : 1600px) {
+  .count__number {
+    width: 41px;
+    height: 27px;
+  }
+}
+
+@media screen and (min-width : 2048px) {
+  .count__number {
+    width: 51px;
+    height: 32px;
+  }
+}
