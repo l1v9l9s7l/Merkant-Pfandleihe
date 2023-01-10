@@ -1,0 +1,7 @@
+.input_disable{
+  background-color: #a7a7a7;
+}
+
+.input_disable:hover{
+  outline: none;
+}

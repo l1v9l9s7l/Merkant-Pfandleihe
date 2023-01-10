@@ -26,10 +26,18 @@
           <div class="flex-container border__bottom_color_grey">
             <div class="w-320 mr16 mb16">
               <p class="table__title">Personaldaten</p>
-              <input class="input input_size_full mt11 w-320" type="text" placeholder="Vorname" />
-              <input class="input input_size_full mt8 w-320" type="text" placeholder="Nachname" />
               <input
-                class="input input_size_full mt8 w-320"
+                class="input input_size_full mt11 w-320 other-input"
+                type="text"
+                placeholder="Vorname"
+              />
+              <input
+                class="input input_size_full mt8 w-320 other-input"
+                type="text"
+                placeholder="Nachname"
+              />
+              <input
+                class="input input_size_full mt8 w-320 other-input"
                 type="text"
                 placeholder="Geburtsdatum"
               />
@@ -40,25 +48,45 @@
 
             <div class="w-320 mr16">
               <p class="table__title">Anschrift</p>
-              <input class="input input_size_full mt11 w-320" type="text" placeholder="Strasse" />
-              <input class="input input_size_full mt8 w-320" type="text" placeholder="Hausnummer" />
               <input
-                class="input input_size_full mt8 w-320"
+                class="input input_size_full mt11 w-320 other-input"
+                type="text"
+                placeholder="Strasse"
+              />
+              <input
+                class="input input_size_full mt8 w-320 other-input"
+                type="text"
+                placeholder="Hausnummer"
+              />
+              <input
+                class="input input_size_full mt8 w-320 other-input"
                 type="text"
                 placeholder="Postleitzahl"
               />
-              <input class="input input_size_full mt8 w-320" type="text" placeholder="Wein" />
+              <input
+                class="input input_size_full mt8 w-320 other-input"
+                type="text"
+                placeholder="Wein"
+              />
             </div>
 
             <div class="w-320">
               <p class="table__title">Kontakt</p>
               <input
-                class="input input_size_full mt11 w-320"
+                class="input input_size_full mt11 w-320 other-input"
                 type="text"
                 placeholder="Telefonnummer"
               />
-              <input class="input input_size_full mt8 w-320" type="text" placeholder="Email" />
-              <input class="input input_size_full mt8 w-320" type="text" placeholder="UID-NUMMER" />
+              <input
+                class="input input_size_full mt8 w-320 other-input"
+                type="text"
+                placeholder="Email"
+              />
+              <input
+                class="input input_size_full mt8 w-320 other-input"
+                type="text"
+                placeholder="UID-NUMMER"
+              />
             </div>
           </div>
 
@@ -68,17 +96,20 @@
               <input
                 class="input input_size_full mt11 w-320"
                 type="text"
+                id="bestandInput"
                 placeholder="Kundennummer oder Name (mind. 3 symbole)"
               />
             </div>
           </div>
 
-          <button class="button button_color_green button_size_full mt8">
+          <button id="submit" class="button button_color_green button_size_full mt8">
             Senden <img src="./images/arrow.svg" alt="submit" class="ml8" />
           </button>
         </div>
       </form>
     </main>
     <footer class="footer"></footer>
+    <script src="./scripts/einkauf.js"></script>
+    ;
   </body>
 </html>
