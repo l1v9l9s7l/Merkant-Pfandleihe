@@ -41,10 +41,21 @@
                 type="text"
                 placeholder="Geburtsdatum"
               />
-              <input
-                class="input input_size_full mt8 w-320 other-input input_color_grey"
-                placeholder="Datei aswählen"
-              />
+
+              <div class="input__wrapper">
+                <input
+                  name="file"
+                  class="input input_size_full mt8 w-320 other-input input_display_none"
+                  placeholder="Datei aswählen"
+                  type="file"
+                  id="input__file"
+                />
+                <label
+                  for="input__file"
+                  class="input_color_grey input input_size_full other-input mt8 w-320"
+                  >Datei aswählen</label
+                >
+              </div>
             </div>
 
             <div class="w-320 mr16">
