@@ -1,0 +1,9 @@
+.input_color_grey{
+  background-color: transparent;
+  border: 1px solid white;
+}
+
+.input_color_grey::placeholder{
+  color: aliceblue;
+  text-align: center;
+}

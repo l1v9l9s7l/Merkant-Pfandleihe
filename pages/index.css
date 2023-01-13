@@ -15,6 +15,7 @@
 @import url(../blocks/input/_type/input_type_radio.css);
 @import url(../blocks/input/_visible/input_invisible.css);
 @import url(../blocks/input/_disable/input_disable.css);
+@import url(../blocks/input/_color/input_color_grey.css);
 /* border */
 @import url(../blocks/border/__bottom/_color/border__bottom_color_grey.css);
 @import url(../blocks/border/_color_green/border_color_green.css);
