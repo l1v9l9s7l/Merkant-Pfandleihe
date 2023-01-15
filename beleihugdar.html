@@ -21,19 +21,23 @@
       </nav>
     </header>
     <main class="main">
-      <form class="table verlangerung-pfand__container">
-        <h2 class="table__title">Darlehenssumme</h2>
+      <form >
+      <div id="form" class="table verlangerung-pfand__container">
+      <h2 class="table__title">Darlehenssumme</h2>
         <input
+          id="darInput"
+          pattern="^[0-9]*[.,][0-9]+$"
+          required
           class="input input_size_full"
           type="text"
           placeholder="Direkte Nummer oder Artikelbezeichnung"
         />
-      </form>
-      <form class="table mt16 table_padding_yes">
+      </div>
+      <div class="table mt16 table_padding_yes">
         <div class="flex-container flex-container_justify_sb">
           <div>
             <p class="table__title">Pfandscheingebuehr:</p>
-            <input class="input input_size_235" type="text" placeholder="Automatisch" />
+            <input id="oneInput" required class="input input_size_235" type="text" placeholder="Automatisch" />
             <div class="mt8">
               <p class="table__text">Liza Offerdinger 04.09.1993</p>
               <p class="table__text">Hauptstrasse 180/1/5, 1140 Wien</p>
@@ -41,15 +45,15 @@
           </div>
           <div>
             <p class="table__title">Zinsen in Prozent:</p>
-            <input class="input input_size_235" type="text" placeholder="7" />
+            <input id="twoInput" class="input input_size_235" type="text" placeholder="7" />
           </div>
           <div>
             <p class="table__title">Bearbeitungsgebuehr in Prozent:</p>
-            <input class="input input_size_235" type="text" placeholder="2" />
+            <input id="threeInput" class="input input_size_235" type="text" placeholder="2" />
           </div>
           <div>
             <p class="table__title">Lagergebuehr:</p>
-            <input class="input input_size_235" type="text" placeholder="Automatisch" />
+            <input id="fourInput" class="input input_size_235" type="text" placeholder="Automatisch" />
             <div class="mt8">
               <p class="table__text">Liza Offerdinger 04.09.1993</p>
               <p class="table__text">Hauptstrasse 180/1/5, 1140 Wien</p>
@@ -63,11 +67,14 @@
           <p class="text text_align_center text_size_small">Summe: <p class="text text_color_green">2.836,35 €</p></p>
           <p class="text text_align_center text_size_small">Steuer: <p class="text text_size_small text_color_green">1.527,35 €</p></p>
         </div>
-        <button class="button button_color_green button_size_full mt16">
+        <input id="client-id" name="client-id" type="hidden" />
+        <button id="submitButton" class="button button_color_green button_size_full mt16">
           Senden <img src="./images/arrow.svg" alt="submit" class="ml8" />
         </button>
-      </form>
+      </div>
+    </form>
     </main>
     <footer class="footer"></footer>
+    <script src="./scripts/beleihungdar.js"></script>
   </body>
 </html>

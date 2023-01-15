@@ -21,7 +21,7 @@
       </nav>
     </header>
     <main class="main">
-      <form action="">
+      <form id="form" action="">
         <div class="flex-container flex-container_justify_c">
           <div class="table table_padding_yes table_size_2 mr16">
             <button diabled class="button button_color_dark-grey button_size_full">
@@ -104,11 +104,12 @@
 
             <input class="input mt8 input_size_full" type="text" placeholder="VK-Preis" />
           </div>
+          <input id="client-id" name="client-id" type="hidden" />
           <div class="flex-container">
-            <button class="button button_size_full mt8 mr8">
-              Senden <img src="./images/add.svg" alt="submit" class="ml8" />
+            <button id="buttonOne" class="button button_size_full mt8 mr8">
+              Datei aswählen <img src="./images/add.svg" alt="submit" class="ml8" />
             </button>
-            <button class="button button_color_green button_size_full mt8">
+            <button id="buttonTwo" class="button button_color_green button_size_full mt8">
               Senden <img src="./images/arrow.svg" alt="submit" class="ml8" />
             </button>
           </div>
@@ -123,5 +124,6 @@
       </form>
     </main>
     <footer class="footer"></footer>
+    <script src="./scripts/beleihungkund.js"></script>
   </body>
 </html>
