@@ -37,7 +37,7 @@
         <div class="flex-container flex-container_justify_sb">
           <div>
             <p class="table__title">Pfandscheingebuehr:</p>
-            <input id="oneInput" required class="input input_size_235" type="text" placeholder="Automatisch" />
+            <input id="oneInput" class="input input_size_235" type="text" placeholder="Automatisch" />
             <div class="mt8">
               <p class="table__text">Liza Offerdinger 04.09.1993</p>
               <p class="table__text">Hauptstrasse 180/1/5, 1140 Wien</p>
@@ -62,19 +62,20 @@
         </div>
         <div class="table table_border_green flex-container flex-container_justify_sb mt16">
           <p class="text text_align_center text_size_small ml16">Warenhandel</p>
-          <p class="text text_align_center text_size_small">EK-preis total: <p class="text text_size_small text_color_green">1.466 €</p></p>
-          <p class="text text_align_center text_size_small">EK-preis total: <p class="text text_size_small text_color_green">1.466 €</p></p>
-          <p class="text text_align_center text_size_small">Summe: <p class="text text_color_green">2.836,35 €</p></p>
-          <p class="text text_align_center text_size_small">Steuer: <p class="text text_size_small text_color_green">1.527,35 €</p></p>
+          <p class="text text_align_center text_size_small">EK-preis total: <p id="priceOne" class="text text_size_small text_color_green">1.466 €</p></p>
+          <p class="text text_align_center text_size_small">EK-preis total: <p id="priceTwo" class="text text_size_small text_color_green">1.466 €</p></p>
+          <p class="text text_align_center text_size_small">Summe: <p id="amount" class="text text_color_green">2.836,35 €</p></p>
+          <p class="text text_align_center text_size_small">Steuer: <p id="steur" class="text text_size_small text_color_green">1.527,35 €</p></p>
         </div>
         <input id="client-id" name="client-id" type="hidden" />
-        <button id="submitButton" class="button button_color_green button_size_full mt16">
+        <button type="submit" id="submitButton" class="button button_color_green button_size_full mt16">
           Senden <img src="./images/arrow.svg" alt="submit" class="ml8" />
         </button>
       </div>
     </form>
     </main>
     <footer class="footer"></footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
     <script src="./scripts/beleihungdar.js"></script>
   </body>
 </html>
